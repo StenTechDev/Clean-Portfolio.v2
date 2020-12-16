@@ -4,10 +4,39 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.stenMayungaImg {
+    margin: 50px auto 50px auto;
+    border-radius: 50%;
+}
+
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Cinzel', serif;
-    font-size: 40px;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+h1, h2, h3 {
+    color: #495464;
+}
+
+hr {
+    width: 10%;
+    border: none;
+    border-top: 7px dotted #e8e8e8;
+    margin: 100px auto;
+}
+
+.webDev {
+    font-weight: normal;
+    margin-top: 0;
 }
 
 .topContainer {
@@ -17,15 +46,32 @@ h1 {
 }
 
 .middleContainer {
-    background-color: #bbbfca;
-    height: 200px;
-    width: 200px;
+
+}
+
+.skillRow {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.webDevelopmentImg {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.webDesignImg {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
 }
 
 .bottomContainer {
     background-color: #495464;
-    height: 200px;
-    width: 200px;
+    padding-top: 4rem;
+    color: #f4f4f2;
 }
 
 .dev {
@@ -43,4 +89,36 @@ h1 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.description {
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0;
+    line-height: 1.7;
+}
+
+a {
+    color: #bbbfca;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: #e8e8e8;
+}
+
+.btn {
+    background-color: #495464;
+    color: #f4f4f2;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    padding: 50px 0px 10px 0px;
+    font-size: 0.7rem;
 }
