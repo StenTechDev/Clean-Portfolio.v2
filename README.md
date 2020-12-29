@@ -1,4 +1,4 @@
-# Clean Portfolio Website version 2
+# Clean, Portfolio Website Version 2
 This is my second portfolio website which is simple and clean.
 
-To visiti this website: http://stentechdev.com/Clean-Portfolio.v2/
+To view this website, visit: https://stentechdev-clean-portfolio-v2.netlify.app
